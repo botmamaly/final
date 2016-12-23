@@ -1,0 +1,1078 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 3336
+
+Current time: 	12/18/16 8:22:55 PM CST
+Time zone: 	China Standard Time (Asia/Taipei)
+
+OS: Windows 8.1
+Version: 6.3
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=PMingLiU,name=新細明體,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	USER
+User home directory: C:/Users/USER
+User working directory: C:/Users/USER/Desktop/lab8
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	186 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 508 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\USER\Desktop\lab8\lab8.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 40 MB (+39117kb) [00:00:07]
+// [Engine Memory]: 393 MB (+260209kb) [00:00:07]
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 58 MB (+16854kb) [00:00:09]
+// [Engine Memory]: 457 MB (+47055kb) [00:00:09]
+// [Engine Memory]: 483 MB (+2982kb) [00:00:10]
+// [GUI Memory]: 66 MB (+5266kb) [00:00:12]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/USER/Desktop/lab8/lab8.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/lab229/Desktop/lab8' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 515 MB (+8383kb) [00:00:13]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 516 MB. GUI used memory: 43 MB. Current time: 12/18/16 8:22:57 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 749.789 ; gain = 116.246 
+// Project name: lab8; location: C:/Users/USER/Desktop/lab8; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// a:a (cv:JFrame): Critical Messages: addNotify
+// Elapsed time: 34 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, a:a)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 2); // z:k (G:JPanel, cv:JFrame)
+// PAPropertyPanels.initPanels (kanahei.coe) elapsed time: 0.5s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files, kanahei.coe]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files, kanahei.coe]", 3, false); // z:k (G:JPanel, cv:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 2); // z:k (G:JPanel, cv:JFrame)
+// [Engine Memory]: 548 MB (+7934kb) [00:01:04]
+// Elapsed time: 117 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3, true); // z:k (G:JPanel, cv:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 2); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bL:g (cv:JFrame):  IP Catalog : addNotify
+// 'a' command handler elapsed time: 8 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP Catalog", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+dismissDialog("IP Catalog"); // bL:g (cv:JFrame)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // u:aK
+// [GUI Memory]: 75 MB (+5929kb) [00:03:16]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cv:JFrame): Add Sources: addNotify
+dismissDialog("Add Sources"); // b:g (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Project Settings]", 1, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SETTINGS
+// Project Settings: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 564 MB. GUI used memory: 45 MB. Current time: 12/18/16 8:26:04 PM CST
+selectButton("IP", "IP"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_REPOSITORY_MANAGER, "Repository Manager", 1); // g:JideTabbedPane (z:bc, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_PACKAGER, "Packager", 2); // g:JideTabbedPane (z:bc, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_REPOSITORY_MANAGER, "Repository Manager", 1); // g:JideTabbedPane (z:bc, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_PACKAGER, "Packager", 2); // g:JideTabbedPane (z:bc, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_REPOSITORY_MANAGER, "Repository Manager", 1); // g:JideTabbedPane (z:bc, k:aP)
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "BaseIP ;  ;  ;  ; ", 4, "BaseIP", 0, true); // O:as (JViewport:JComponent, cv:JFrame) - Node
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files, kanahei.coe]", 11, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), oprst - onepulse (onepulse.v)]", 5, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files, kanahei.coe]", 11, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, false); // z:k (G:JPanel, cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.3", 12, "Block Memory Generator", 0, true); // O:as (JViewport:JComponent, cv:JFrame) - Node
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.3", 12); // O:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.3", 12, "Block Memory Generator", 0, true, false, false, false, false, true); // O:as (JViewport:JComponent, cv:JFrame) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// l:bL (cv:JFrame):  Customize IP : addNotify
+// TclEventType: LOAD_FEATURE
+// HMemoryUtils.trashcanNow. Engine heap size: 596 MB. GUI used memory: 46 MB. Current time: 12/18/16 8:26:44 PM CST
+// [Engine Memory]: 611 MB (+36713kb) [00:04:03]
+// [Engine Memory]: 668 MB (+27692kb) [00:04:08]
+// [Engine Memory]: 708 MB (+7272kb) [00:04:13]
+// p:g (cv:JFrame): Customize IP: addNotify
+// [GUI Memory]: 81 MB (+2977kb) [00:04:15]
+// Elapsed time: 18 seconds
+dismissDialog("Customize IP"); // l:bL (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 724 MB. GUI used memory: 50 MB. Current time: 12/18/16 8:26:59 PM CST
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, "PAResourceEtoH.HACGCTabbedPane_TABBED_PANE", (HResource) null, "Other Options", 2, true, false); // aT:g (F:JPanel, p:g) - Popup Trigger
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aT:g (F:JPanel, p:g)
+dismissDialog("Customize IP"); // p:g (cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, false); // z:k (G:JPanel, cv:JFrame)
+closeView(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // ad:aK
+// [GUI Memory]: 88 MB (+2631kb) [00:04:30]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// P:bL (cv:JFrame):  Re-customize IP : addNotify
+// p:g (cv:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // P:bL (cv:JFrame)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // aT:g (F:JPanel, p:g)
+selectButton(PAResourceEtoH.HACGCCoeFileWidget_BROWSE, "Browse"); // a:JButton (JPanel:JComponent, p:g)
+// Elapsed time: 15 seconds
+setFileChooser("C:/Users/USER/Downloads/NTHU 2上/硬體/lab8/lab8_sorucecode/demo2/kanahei.coe");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, p:g)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, p:g)
+// HMemoryUtils.trashcanNow. Engine heap size: 758 MB. GUI used memory: 55 MB. Current time: 12/18/16 8:27:45 PM CST
+dismissDialog("Re-customize IP"); // p:g (cv:JFrame)
+// p:g (cv:JFrame): Re-customize IP: addNotify
+// bL:g (p:g):  Re-customize IP : addNotify
+// Tcl Message: set_property -dict [list CONFIG.Coe_File {C:/Users/USER/Downloads/NTHU 2上/硬體/lab8/lab8_sorucecode/demo2/kanahei.coe}] [get_ips blk_mem_gen_0] 
+// Tcl Message: INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/USER/Downloads/NTHU 2上/硬體/lab8/lab8_sorucecode/demo2/kanahei.coe' provided. It will be converted relative to IP Instance files '../../../../../../Downloads/NTHU 2上/硬體/lab8/lab8_sorucecode/demo2/kanahei.coe' 
+// [Engine Memory]: 758 MB (+15446kb) [00:05:03]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// aD:x (cv:JFrame): Generate Output Products: addNotify
+dismissDialog("Re-customize IP"); // bL:g (p:g)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 151 seconds
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aD:x)
+// bL:g (cv:JFrame):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  C:/Users/USER/Desktop/lab8/lab8.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'... INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'... 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 957.734 ; gain = 0.000 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/USER/Desktop/lab8/lab8.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -force -quiet 
+// Tcl Message: export_simulation -of_objects [get_files C:/Users/USER/Desktop/lab8/lab8.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -directory C:/Users/USER/Desktop/lab8/lab8.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/USER/Desktop/lab8/lab8.ip_user_files -ipstatic_source_dir C:/Users/USER/Desktop/lab8/lab8.ip_user_files/ipstatic -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 49 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files, kanahei.coe]", 11, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files, kanahei.coe]", 11, false, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aB:g (cv:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aB:g)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Remove Sources"); // aB:g (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files C:/Users/USER/Desktop/lab8_sorucecode/demo2/kanahei.coe 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8); // z:k (G:JPanel, cv:JFrame)
+// G:be (cv:JFrame): Show IP Hierarchy: addNotify
+// [GUI Memory]: 94 MB (+2191kb) [00:08:39]
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, G:be)
+dismissDialog("Show IP Hierarchy"); // G:be (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bL:g (cv:JFrame):  IP Catalog : addNotify
+dismissDialog("IP Catalog"); // bL:g (cv:JFrame)
+setText("PAResourceItoN.IPCoreView_IP_CATALOG_SEARCH_FIELD", "memory"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.3", 8, "Block Memory Generator", 0, false); // O:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.3", 8, "Block Memory Generator", 0, false, false, false, false, false, true); // O:as (JViewport:JComponent, cv:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// l:bL (cv:JFrame):  Customize IP : addNotify
+// p:g (cv:JFrame): Customize IP: addNotify
+dismissDialog("Customize IP"); // l:bL (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 794 MB. GUI used memory: 61 MB. Current time: 12/18/16 8:31:40 PM CST
+// Elapsed time: 58 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aT:g (F:JPanel, p:g)
+setText("Defines the PortA Write Width(DINA)", "12"); // O:ao (aU:N, p:g)
+// [Engine Memory]: 806 MB (+10010kb) [00:10:03]
+setText("Write Depth", "76800"); // O:ao (aU:N, p:g)
+selectComboBox("Enable Port Type (Enable_A)", "Always Enabled", 0); // z:f (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // aT:g (F:JPanel, p:g)
+selectCheckBox((HResource) null, "Load Init File", true); // h:JCheckBox (m:G, p:g): TRUE
+selectButton(PAResourceEtoH.HACGCCoeFileWidget_BROWSE, "Browse"); // a:JButton (JPanel:JComponent, p:g)
+setFileChooser("C:/Users/USER/Downloads/sweethouse.coe");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, p:g)
+// TclEventType: CREATE_IP_CORE
+dismissDialog("Customize IP"); // p:g (cv:JFrame)
+// bL:g (cv:JFrame):  Customize IP : addNotify
+// Tcl Message: create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.3 -module_name blk_mem_gen_1 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property -dict [list CONFIG.Write_Width_A {12} CONFIG.Write_Depth_A {76800} CONFIG.Enable_A {Always_Enabled} CONFIG.Load_Init_File {true} CONFIG.Coe_File {C:/Users/USER/Downloads/sweethouse.coe} CONFIG.Read_Width_A {12} CONFIG.Write_Width_B {12} CONFIG.Read_Width_B {12}] [get_ips blk_mem_gen_1] 
+// Tcl Message: INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/USER/Downloads/sweethouse.coe' provided. It will be converted relative to IP Instance files '../../../../../../Downloads/sweethouse.coe' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files c:/Users/USER/Desktop/lab8/lab8.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_1'... 
+// aD:x (cv:JFrame): Generate Output Products: addNotify
+// Elapsed time: 11 seconds
+dismissDialog("Customize IP"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectRadioButton(PAResourceQtoS.SimpleOutputProductDialog_SYNTHESIZE_DESIGN_GLOBALLY, "Global"); // a:JRadioButton (JPanel:JComponent, aD:x)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aD:x)
+// bL:g (cv:JFrame):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property generate_synth_checkpoint false [get_files  c:/Users/USER/Desktop/lab8/lab8.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci] 
+// Tcl Message: generate_target all [get_files  c:/Users/USER/Desktop/lab8/lab8.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_1'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_1'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_1'... INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_1'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_1'... 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 983.246 ; gain = 0.000 
+// Tcl Message: export_ip_user_files -of_objects [get_files c:/Users/USER/Desktop/lab8/lab8.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci] -no_script -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: export_simulation -of_objects [get_files c:/Users/USER/Desktop/lab8/lab8.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci] -directory C:/Users/USER/Desktop/lab8/lab8.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/USER/Desktop/lab8/lab8.ip_user_files -ipstatic_source_dir C:/Users/USER/Desktop/lab8/lab8.ip_user_files/ipstatic -force -quiet 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 25 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 101 MB (+2197kb) [00:11:14]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, blk_mem_gen_1 (blk_mem_gen_1.xci)]", 10, false); // z:k (G:JPanel, cv:JFrame)
+closeView(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // ad:aK
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("top.v", 160, 150); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cv:JFrame)
+selectCodeEditor("top.v", 63, 264); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 356, 287); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 340, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 74, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 56, 259); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 310, 258); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 324, 254); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 63, 251); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 75, 267); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 367, 266); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 376, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 62, 264); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 62, 265, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 303, 265); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 109, 350); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 291, 367); // bH:N (JPanel:JComponent, cv:JFrame)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ao:DockableFrame
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, blk_mem_gen_1 (blk_mem_gen_1.xci)]", 2); // z:k (G:JPanel, cv:JFrame)
+// G:be (cv:JFrame): Show IP Hierarchy: addNotify
+dismissDialog("Show IP Hierarchy"); // G:be (cv:JFrame)
+selectCodeEditor("top.v", 18, 295); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 98, 471); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 108, 469); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 103, 462); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 107 MB (+411kb) [00:12:11]
+// Elapsed time: 11 seconds
+selectCodeEditor("top.v", 47, 257); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 112, 326); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 112, 326, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 240, 339); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 200, 331); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 200, 331, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 122, 317); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 122, 317, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 135, 323); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 128, 323); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 140, 324); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 124, 355); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 135, 402); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("top.v", 132, 117); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 260, 117); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 4, 117); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 142, 117); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 13, 123); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 134, 123); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 29, 124); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 145, 129); // bH:N (JPanel:JComponent, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectCodeEditor("top.v", 29, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 156, 155); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 24, 119); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 98, 307); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 77, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 156, 320); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 281, 326); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 25 seconds
+selectCodeEditor("top.v", 74, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 287, 176); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 279, 181); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 103, 139); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 100, 73); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 236, 155); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 238, 177); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 83, 77); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 83, 72); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 188, 188); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 242, 193); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 80, 67); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 32, 35); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 120, 201); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 120, 208); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 33, 83); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 185, 350); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 185, 350, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 264, 194); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 260, 202); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 260, 202, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 280, 489); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 280, 489, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 240, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 240, 212, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 32 seconds
+selectCodeEditor("top.v", 147, 509); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 147, 509, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 78, 264); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 292, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 138, 527); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 138, 527, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 188, 156); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 188, 156, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 112, 323); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 452, 367); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), mem_addr_gen_inst - mem_addr_gen (mem_addr_gen.v)]", 7, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), mem_addr_gen_inst - mem_addr_gen (mem_addr_gen.v)]", 7, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), mem_addr_gen_inst - mem_addr_gen (mem_addr_gen.v)]", 7, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 104, 17); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 123, 17); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 484 seconds
+selectCodeEditor("mem_addr_gen.v", 71, 385); // bH:N (JPanel:JComponent, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8); // z:k (G:JPanel, cv:JFrame)
+// G:be (cv:JFrame): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, G:be)
+dismissDialog("Show IP Hierarchy"); // G:be (cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 181, 324); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("top.v", 160, 208); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 227, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 132, 215); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 260, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("top.v", 193, 174); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 337, 171); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("top.v", 182, 239); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 193, 277); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 193, 277, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 255, 304); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 175, 275); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 175, 275, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 78, 293); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 73, 293); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 167, 266); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 167, 266, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 32 seconds
+selectCodeEditor("top.v", 104, 356); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 104, 356, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 626, 394); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 374, 356); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 374, 356, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 516, 346); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 516, 346, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 433, 358); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 433, 358, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 248, 337); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 248, 337, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 537, 355); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 537, 355, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 151, 405); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 149, 407); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 76, 217); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 806 MB. GUI used memory: 64 MB. Current time: 12/18/16 9:01:42 PM CST
+// Elapsed time: 1250 seconds
+selectCodeEditor("top.v", 146, 392); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectCodeEditor("top.v", 158, 356); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 158, 356, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 220, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 220, 362, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 360, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 307, 354); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 307, 354, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 236, 359); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 236, 354); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 236, 354, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 284, 351); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 284, 351, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 241, 361); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 241, 361); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 241, 361, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 304, 339); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 304, 339, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 149, 352); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 149, 352, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 440, 347); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 440, 347, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 410, 355); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 410, 355, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 256, 351); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 256, 351, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 50, 239); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 50, 239, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 169, 435); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 169, 435, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 173, 467); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 173, 467, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 173, 435); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 173, 435, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 173, 463); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 173, 463, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), vga_inst - vga_controller (vga.v)]", 10, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), vga_inst - vga_controller (vga.v)]", 10, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), vga_inst - vga_controller (vga.v)]", 10, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), vga_inst - vga_controller (vga.v)]", 10, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("top.v", 101, 299); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("vga.v", 212, 169); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga.v", 148, 150); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga.v", 189, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("top.v", 284, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), dben - debounce (debounce.v)]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), dbrst - debounce (debounce.v)]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), open - onepulse (onepulse.v)]", 4, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), oprst - onepulse (onepulse.v)]", 5, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), open - onepulse (onepulse.v)]", 4, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), clk_wiz_0_inst - clock_divisor (clock_divisor.v)]", 6, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), oprst - onepulse (onepulse.v)]", 5, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), oprst - onepulse (onepulse.v)]", 5, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), open - onepulse (onepulse.v)]", 4, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), open - onepulse (onepulse.v)]", 4, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "onepulse.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("top.v", 163, 205); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 73, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("top.v", 253, 188); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 255, 210); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 255, 210, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 190, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 190, 362, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 80, 399); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 74, 399); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 79, 401); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 80, 403); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 73, 401); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 235, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 77, 463); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 73, 459); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 66 seconds
+selectCodeEditor("top.v", 300, 467); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 72, 455); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top.v", 160, 370); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("top.v", 211, 276); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 212, 278, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 267, 355); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 174, 357); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 174, 357, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 61 seconds
+selectCodeEditor("top.v", 145, 441); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// [GUI Memory]: 113 MB (+930kb) [00:51:43]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("top.v", 27, 319); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 327, 396); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 284, 488); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 55, 338); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 44, 320); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 28, 316); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 208, 479); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 222, 467); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 264, 463); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 225, 461); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 268, 460); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 230, 462); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 271, 462); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 226, 461); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 276, 462); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 230, 461); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 276, 463); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 273, 467, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 235, 467); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 231, 467, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 266, 468); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 187, 275); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 196, 268); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 278, 422); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 193, 471); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 188, 468); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 402, 407); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 40, 433); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 15 seconds
+selectCodeEditor("top.v", 480, 439); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+selectCodeEditor("top.v", 362, 455); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 472, 446); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 479, 438); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top.v", 579, 408); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("top.v", 610, 439); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 639, 432); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 479, 437); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 24 seconds
+selectCodeEditor("top.v", 708, 438); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 706, 438); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("top.v", 760, 439); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 716, 431); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 702, 434); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 191, 292); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top.v", 244, 305); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("top.v", 32, 285); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 264, 380); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 216, 403); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 208, 401); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top.v", 664, 401); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("top.v", 288, 396); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 415, 393); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bL:g (cv:JFrame):  IP Catalog : addNotify
+dismissDialog("IP Catalog"); // bL:g (cv:JFrame)
+setText("PAResourceItoN.IPCoreView_IP_CATALOG_SEARCH_FIELD", "memory"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP Catalog", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+closeView(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // ad:aK
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// [GUI Memory]: 120 MB (+1668kb) [00:54:12]
+selectCodeEditor("top.v", 60, 197); // bH:N (JPanel:JComponent, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8); // z:k (G:JPanel, cv:JFrame)
+// G:be (cv:JFrame): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // G:be (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 69 MB. Current time: 12/18/16 9:17:08 PM CST
+selectButton(PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, "1 critical warning"); // i:l (CommandBar:DockableBar, cv:JFrame)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// [Engine Memory]: 852 MB (+6021kb) [00:54:30]
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci), blk_mem_gen_0 - blk_mem_gen_0_arch (blk_mem_gen_0.vhd)]", 9); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci), blk_mem_gen_0 - blk_mem_gen_0_arch (blk_mem_gen_0.vhd)]", 9, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci), blk_mem_gen_0 - blk_mem_gen_0_arch (blk_mem_gen_0.vhd)]", 9, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci), blk_mem_gen_0 - blk_mem_gen_0_arch (blk_mem_gen_0.vhd)]", 9); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci), blk_mem_gen_0 - blk_mem_gen_0_arch (blk_mem_gen_0.vhd), U0 - blk_mem_gen_v8_3_3 - xilinx]", 10, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci), blk_mem_gen_0 - blk_mem_gen_0_arch (blk_mem_gen_0.vhd), U0 - blk_mem_gen_v8_3_3 - xilinx]", 10, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "blk_mem_gen_0.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// P:bL (cv:JFrame):  Re-customize IP : addNotify
+// [Engine Memory]: 908 MB (+13945kb) [00:54:53]
+// p:g (cv:JFrame): Re-customize IP: addNotify
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8); // z:k (G:JPanel, cv:JFrame)
+dismissDialog("Re-customize IP"); // P:bL (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 908 MB. GUI used memory: 68 MB. Current time: 12/18/16 9:17:38 PM CST
+dismissDialog("Re-customize IP"); // p:g (cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "blk_mem_gen_0.vhd", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("top.v", 42, 243); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 347, 249); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 28, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 235, 364); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 37, 411); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 228, 560); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// P:bL (cv:JFrame):  Re-customize IP : addNotify
+// p:g (cv:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // P:bL (cv:JFrame)
+dismissDialog("Re-customize IP"); // p:g (cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci), blk_mem_gen_0 - blk_mem_gen_0_arch (blk_mem_gen_0.vhd)]", 9, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci), blk_mem_gen_0 - blk_mem_gen_0_arch (blk_mem_gen_0.vhd)]", 9, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci), blk_mem_gen_0 - blk_mem_gen_0_arch (blk_mem_gen_0.vhd)]", 9); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci), blk_mem_gen_0 - blk_mem_gen_0_arch (blk_mem_gen_0.vhd), U0 - blk_mem_gen_v8_3_3 - xilinx]", 10, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci), blk_mem_gen_0 - blk_mem_gen_0_arch (blk_mem_gen_0.vhd), U0 - blk_mem_gen_v8_3_3 - xilinx]", 10, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("blk_mem_gen_0.vhd", 375, 191); // F:bH (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("blk_mem_gen_0.vhd", 158, 16); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("blk_mem_gen_0.vhd", 291, 15); // F:bH (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "blk_mem_gen_0.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectCodeEditor("mem_addr_gen.v", 195, 199); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, top.v]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, top.v]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 227, 156); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 200, 343); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 273, 551); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectCodeEditor("top.v", 233, 553); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 233, 553, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "pixel", true); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "pixel"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "pixel"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "pixel"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "pixel"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "pixel"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "pixel"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "pixel"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "pixel"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "pixel"); // o:ao (az:f, cv:JFrame)
+selectCodeEditor("top.v", 260, 327); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 260, 327, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 318, 331); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 240, 378); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 240, 378, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 176, 353); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 176, 353, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 252, 318); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 200, 351); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 200, 351, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 299, 352); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 236, 380); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 236, 380, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("top.v", 476, 409); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 498, 407); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 378, 369); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 377, 411); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 566, 406); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 560, 406); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 681, 416); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 707, 375); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 704, 377, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 701, 376); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 707, 401); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 10 seconds
+selectCodeEditor("top.v", 59, 348); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 186, 351); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 186, 351, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 144, 521); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("mem_addr_gen.v", 189, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 256, 205); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 322, 209); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 403, 209); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 324, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 392, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("mem_addr_gen.v", 236, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 306, 209); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 223, 209); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("mem_addr_gen.v", 471, 259); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectCodeEditor("mem_addr_gen.v", 177, 429); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 290, 475); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 299, 496); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 341, 520); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 341, 520, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("mem_addr_gen.v", 235, 521); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 235, 521, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("mem_addr_gen.v", 291, 521); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 291, 521, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("mem_addr_gen.v", 299, 521); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 321, 521); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 321, 521, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("mem_addr_gen.v", 384, 503); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("mem_addr_gen.v", 205, 520); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 464, 524); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 209, 519); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 367, 529); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 209, 516); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 533, 527); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 216, 519); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 352, 515); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 560, 527); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 352, 519); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 688, 514); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 384, 519); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 697, 517); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 145, 539); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 492, 518); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 407, 547); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("mem_addr_gen.v", 456, 503); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("mem_addr_gen.v", 115, 519); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 696, 491); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 449, 498); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 462, 494); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 383, 489); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 376, 487); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 716, 490); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 617, 491); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 381, 490); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 120, 519); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 181, 519); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 324, 521); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("mem_addr_gen.v", 284, 512); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 284, 515); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 277, 514); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 418, 437); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("mem_addr_gen.v", 281, 491); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 348, 410); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("top.v", 412, 219); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 39 seconds
+selectCodeEditor("top.v", 336, 191); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 185 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci), blk_mem_gen_0 - blk_mem_gen_0_arch (blk_mem_gen_0.vhd)]", 9, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci), blk_mem_gen_0 - blk_mem_gen_0_arch (blk_mem_gen_0.vhd)]", 9, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("blk_mem_gen_0.vhd", 231, 160); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("blk_mem_gen_0.vhd", 59, 103); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("blk_mem_gen_0.vhd", 59, 103, false, false, false, false, true); // F:bH (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("blk_mem_gen_0.vhd", 37, 19); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("blk_mem_gen_0.vhd", 37, 19, false, false, false, false, true); // F:bH (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("blk_mem_gen_0.vhd", 151, 261); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("blk_mem_gen_0.vhd", 25, 407); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("blk_mem_gen_0.vhd", 398, 394); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("blk_mem_gen_0.vhd", 19, 400); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("blk_mem_gen_0.vhd", 361, 405); // F:bH (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "blk_mem_gen_0.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("top.v", 182, 455); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 31, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 351, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 349, 386); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 200 seconds
+selectCodeEditor("top.v", 264, 151); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 50 seconds
+selectCodeEditor("top.v", 618, 347); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 632, 378); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 623, 355); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 561, 349); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 624, 378); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 568, 380); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 615, 380); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top.v", 610, 199); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectCodeEditor("top.v", 112, 318); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 333 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 55 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectCodeEditor("mem_addr_gen.v", 176, 208); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), blk_mem_gen_0_inst - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// P:bL (cv:JFrame):  Re-customize IP : addNotify
+// p:g (cv:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // P:bL (cv:JFrame)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aT:g (F:JPanel, p:g)
+// Elapsed time: 63 seconds
+setText("Write Depth", "38400"); // O:ao (aU:N, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // aT:g (F:JPanel, p:g)
+selectButton(PAResourceEtoH.HACGCCoeFileWidget_BROWSE, "Browse"); // a:JButton (JPanel:JComponent, p:g)
+// Elapsed time: 32 seconds
+setFileChooser("C:/Users/USER/Downloads/NTHU 2上/硬體/lab8/sweet.coe");
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // aT:g (F:JPanel, p:g)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Re-customize IP"); // p:g (cv:JFrame)
+// p:g (cv:JFrame): Re-customize IP: addNotify
+// bL:g (p:g):  Re-customize IP : addNotify
+// Tcl Message: set_property -dict [list CONFIG.Write_Depth_A {38400} CONFIG.Coe_File {C:/Users/USER/Downloads/NTHU 2上/硬體/lab8/sweet.coe}] [get_ips blk_mem_gen_0] 
+// Tcl Message: INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/USER/Downloads/NTHU 2上/硬體/lab8/sweet.coe' provided. It will be converted relative to IP Instance files '../../../../../../Downloads/NTHU 2上/硬體/lab8/sweet.coe' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: DG_GRAPH_STALE
+// aD:x (cv:JFrame): Generate Output Products: addNotify
+dismissDialog("Re-customize IP"); // bL:g (p:g)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aD:x)
+// bL:g (cv:JFrame):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  C:/Users/USER/Desktop/lab8/lab8.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'... INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'... 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1079.410 ; gain = 0.000 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/USER/Desktop/lab8/lab8.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: export_simulation -of_objects [get_files C:/Users/USER/Desktop/lab8/lab8.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -directory C:/Users/USER/Desktop/lab8/lab8.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/USER/Desktop/lab8/lab8.ip_user_files -ipstatic_source_dir C:/Users/USER/Desktop/lab8/lab8.ip_user_files/ipstatic -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 23 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files, sweethouse.coe]", 14, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files, sweethouse.coe]", 14, false, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aB:g (cv:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aB:g)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Remove Sources"); // aB:g (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files c:/Users/USER/Downloads/sweethouse.coe 
